@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.main{
+    width:100%;
+    height:100vh;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing: border-box;
+    overflow:hidden;
+    position:relative;
+
+}
+.navbar{
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+.navbar .logo{
+    width:50px;
+    cursor:pointer;
+    margin:30px 0;
+}
+.navbar .menu{
+    width:25px;
+    cursor:pointer;
+}
+.nav{
+    flex:1;
+    text-align: right;
+}
+.nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin-right:30px;
+}
+.nav ul li a{
+    text-decoration:none;
+    color:#000;
+    font-size:14px;
+}
+.nav ul li a:hover{
+    color:  #ff5eaf;
+}
+.row{
+    margin-top:100px;
+    padding-left:40px;
+}
+.row h1{
+    line-height: 60px;
+   font-size: 50px;
+
+}
+.row .two{
+    line-height: 40px;
+    font-size: 30px;
+     color: rgb(92, 90, 90);
+}
+.row .three{
+    font-size: 15px;
+    color: rgb(137, 132, 132);
+}
+.row::before{
+    content:"";
+    width:10px;
+    height:160px;
+    background-color: #ff5eaf;
+    position:absolute;
+    left:8%;
+    top:210px;
+
+}
+.row .price{
+    margin-top:20px;
+    font-weight: bold;
+}
+.row button{
+    padding:12px 19px;
+    background-image: linear-gradient(to right,#fb5283,#ff3527);
+    width:150px;
+    margin-top:30px;
+    border:none;
+    border-radius: 10px;
+    font-size: 20px;
+    color:white;
+    transition: width 0.5s;
+}
+.row button img{
+    width:30px;
+    display:none;
+}
+.row button:hover img {
+    display:block;
+}
+.row button:hover{
+    width:160px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgcontent{
+    width:500px;
+    margin-top:90px;
+}
+ @media (max-width:900px){
+    .imgcontent{
+        display: none;
+    }
+ }
