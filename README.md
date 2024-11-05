@@ -9,5 +9,6 @@ This is the main repository for all of the projects in the challenge.
 | 03 | [Calculator](./Calculator) | [Live Demo](https://omniasameer.github.io/100projects100days/Calculator/) |
 | 04 | [testimonial-slider](./testimonial-slider) | [Live Demo](https://omniasameer.github.io/100projects100days/testimonial-slider/) |
 | 05 | [Game](./Game) | [Live Demo](https://omniasameer.github.io/100projects100days/Game/) |
+| 06 | [House](./House) | [Live Demo](https://omniasameer.github.io/100projects100days/House/) |
 
 
